@@ -1,0 +1,37 @@
+/* X-Small */
+@media (max-width: 575px) {
+  /* стили для ширины менее 576 пикселей */
+}
+
+/* Small */
+@media (min-width: 576px) {
+  /* стили для ширины не менее 576 пикселей */
+}
+
+/* Medium */
+@media (min-width: 768px) {
+  /* стили для ширины не менее 768 пикселей */
+}
+
+/* Large */
+@media (min-width: 992px) {
+  /* стили для ширины не менее 992 пикселей */
+}
+
+/* Extra large */
+@media (min-width: 1200px) {
+	.header{
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	
+	.image{
+		height: auto;
+		margin-right: 8px;
+	}
+}
+
+/* Extra extra large */
+@media (min-width: 1400px) {
+
+}
