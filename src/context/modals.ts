@@ -16,3 +16,5 @@ export const $catalogMenuIsOpen = modals
   .createStore(false)
   .on(openCatalogMenu, () => true)
   .on(closeCatalogMenu, () => false)
+
+  
